@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --green: rgb(157, 207, 186);
+    --off-white: rgb(223, 227, 226);
+    --button-green:rgb(116, 109, 20);
+}
+
+
 body {
     height: 100%;
 }
