@@ -18,3 +18,13 @@ body {
 html {
     background-color: #F7B787;
 }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.navbar li{
+    display: inline;
+    justify-content: space-between;
+ }
