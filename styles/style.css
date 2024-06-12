@@ -24,7 +24,21 @@ header{
     align-items: center;
     height: 10vh;
 }
+
+.logo img {
+    height: 50px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+  }
+
 .navbar li{
+    margin-left: 20px;
     display: inline;
     justify-content: space-between;
  }
