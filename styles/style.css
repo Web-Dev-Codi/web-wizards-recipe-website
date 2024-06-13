@@ -7,7 +7,7 @@
 :root {
     --green: rgb(157, 207, 186);
     --off-white: rgb(223, 227, 226);
-    --button-green:rgb(116, 109, 20);
+    --button-green: rgb(116, 109, 20);
 }
 
 
@@ -18,7 +18,8 @@ body {
 html {
     background-color: #F7B787;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,18 +28,146 @@ header{
 
 .logo img {
     height: 50px;
-  }
+}
 
-  nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
     padding: 10px;
-  }
+}
 
-.navbar li{
+.dot-wrapper-1,
+.dot-wrapper-2 {
+    width: 115px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0px;
+}
+
+.dot {
+    background-color: white;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.top-hero,
+.bottom-hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.center-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+}
+
+.center-hero-bottom-wrapper>* {
+    padding: 8px;
+}
+
+.center-hero-wrapper {
+    display: flex;
+}
+
+.chevron-bottom {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.chevron-top {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.hero-heading {
+    font-size: 70px;
+    line-height: 0.9;
+    margin: 8px;
+    padding: 0;
+}
+
+.thick-border {
+    background-color: white;
+    width: 10px;
+    height: 125px;
+    position: absolute;
+    left: -40px;
+}
+
+.heading-color {
+    color: rgb(129, 190, 129)
+}
+
+.hero-button {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #746D17;
+    border-radius: 23px;
+    font-size: 22px;
+    padding: 3px 4px;
+    margin: 8px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #746D17;
+}
+
+.chevron {
+    display: flex;
+    color: white;
+    align-self: center;
+}
+
+.button-icon {
+    margin-left: 10px;
+}
+
+.hero-para {
+    line-height: 1.6;
+    text-align: left;
+    font-size: 20px;
+    word-wrap: normal;
+}
+
+.left-hero {
+    width: 700px;
+    border: 2px solid blue;
+}
+
+.hero-left-wrapper {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+}
+
+.right-hero {
+    width: 50%;
+}
+
+.navbar li {
     margin-left: 20px;
     display: inline;
     justify-content: space-between;
- }
+}
