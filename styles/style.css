@@ -78,9 +78,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    font-family: "Sulphur Point", sans-serif;
-    font-weight: 900;
-    font-style: normal;
     position: relative;
 }
 
@@ -94,7 +91,7 @@ main {
 
 .chevron-bottom {
     font-size: 30px;
-    margin-right: 20px;
+    margin-right: 70px;
 }
 
 .chevron-top {
@@ -104,15 +101,23 @@ main {
 
 .hero-heading {
     font-size: 70px;
-    line-height: 0.9;
-    margin: 8px;
-    padding: 0;
+    line-height: 1;
+    /* margin: 8px; */
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.explore {
+  /* padding-bottom: 15px; */
+  color: white;
 }
 
 .thick-border {
     background-color: white;
     width: 10px;
-    height: 125px;
+    height: 135px;
     position: absolute;
     left: -40px;
 }
@@ -122,11 +127,12 @@ main {
 }
 
 .hero-button {
-    width: 160px;
-    height: 40px;
+    width: 165px;
+    height: 50px;
     border: 1px solid #746D17;
     border-radius: 23px;
     font-size: 22px;
+    font-weight: 700;
     padding: 3px 4px;
     margin: 8px;
     color: white;
@@ -144,15 +150,17 @@ main {
     margin-left: 10px;
 }
 
-.hero-para {
+.center-hero-bottom-wrapper p {
     line-height: 1.6;
-    text-align: left;
-    font-size: 20px;
+    color: white;
+    font-size: 18px;
     word-wrap: normal;
+    text-wrap: wrap;
+
 }
 
 .left-hero {
-    width: 700px;
+    width: 650px;
     border: 2px solid blue;
 }
 
