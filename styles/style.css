@@ -36,6 +36,8 @@ nav {
     align-items: center;
     color: #fff;
     padding: 10px;
+
+
 }
 .navbar ul {
     display: flex;
@@ -49,6 +51,7 @@ nav {
 .navbar li a {
     text-decoration: none;
     color: #ffffff;
+
 }
 
 .dot-wrapper-1,
@@ -191,7 +194,6 @@ main {
 }
 
 .navbar li {
-<<<<<<< HEAD
   margin-left: 20px;
   display: inline;
   justify-content: space-between;
@@ -367,11 +369,28 @@ main {
 
 }
 
+.foodbox button:hover{
+    background-color: var(--button-green);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+
 
 /* test */
 .foodbox button:hover {
   background-color: var(--button-green);
   color: white;
+
 }
 
 .foodbox p {
@@ -482,9 +501,9 @@ main {
 #item-3:target~.item-3 {
   z-index: 3;
   opacity: 1;
-=======
+
     margin-left: 20px;
     display: inline;
     justify-content: space-between;
->>>>>>> 0d77b458cd94bd68be48205e85c1f3449287f18b
+
 }
