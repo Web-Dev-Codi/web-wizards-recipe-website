@@ -69,6 +69,17 @@ header {
     color: var(--green);
 }
 
+.menu-toggle {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+
 .dot-wrapper-1,
 .dot-wrapper-2 {
     width: 115px;
@@ -912,14 +923,50 @@ input[type=submit]:hover {
         height: 265px;
     }
 
-    .navbar {
-        font-size: 12px;
-        margin-right: 5px;
-    }
+    .hamburger {
+        display: block;
+        position: fixed;
+        right: 10px;
+        top: 20px;
+        cursor: pointer;
+        padding: 15px;
+        z-index: 3;
+      }
 
-    .navbar li {
-        margin: 0 15px;
-    }
+      .navbar ul {
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: rgba(245, 236, 236, 0.9);
+        box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        z-index: 3;
+      }
+
+      .navbar li a {
+        display: block;
+        padding: 8px 15px;
+        color: black;
+        text-decoration: none;
+      }
+
+      .navbar ul li a:hover {
+        background-color: #ffffff;
+      }
+
+      .menu-toggle:checked ~ ul {
+        display: block;
+      }
+
+      .menu-toggle:checked ~ .navbar ul {
+        display: flex;
+      }
+
+      .menu-toggle:checked ~ .hero {
+        margin-top: calc(95px + 75px);
+      }
 
     .contact {
         width: 350px;
