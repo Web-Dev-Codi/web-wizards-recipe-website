@@ -20,24 +20,37 @@ html {
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
     height: 10vh;
 }
 
 .logo img {
-    height: 50px;
+    height: 70px;
 }
 
-nav {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
     padding: 10px;
 }
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+.navbar li {
+   margin-right:10rem ;
+   list-style: none;
+ 
+}
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
+
+
+/////////////////////////////
 .dot-wrapper-1,
 .dot-wrapper-2 {
     width: 115px;
@@ -178,8 +191,3 @@ main {
     width: 50%;
 }
 
-.navbar li {
-    margin-left: 20px;
-    display: inline;
-    justify-content: space-between;
-}
