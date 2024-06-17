@@ -55,46 +55,38 @@ header {
   color: #ffffff;
 }
 
-.headline {
-  
-  object-fit: cover;
-  align-items: center;
-  margin-top: 90px;
-}
 .imprint,
-.privacy,
-.legal{
+.legal,
+.privacy {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  background-color:rgb(223, 227, 226);
-  box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
-  margin-top: -25px;
+  min-height: 100vh;
+
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   width: 50%;
   height: 100%;
   box-sizing: border-box;
-  color: rgb(0, 0, 0);
-  margin: 0 auto;
-  min-height: 100vh
+
 }
 
 .imprint,
-.privacy,
-.legal p, h4{
-  padding: 30px;
-  font-size: 1.2em;
+.legal,
+.privacy h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  text-align: center;
 }
 
-
 .imprint,
-.privacy,
-.legal > h3 {
-  object-fit: cover;
-  align-items: center;
-  margin-top: 90px;
-
+.legal,
+.privacy p {
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 
@@ -110,7 +102,7 @@ header {
   color: rgb(255, 255, 255);
   padding: 20px 0;
   text-align: center;
-  margin-top: auto
+  margin-top: auto;
 }
 
 .footer-top h3 {
@@ -124,7 +116,6 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 20px 0;
-  /* color: rgb(255, 255, 255); */
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
@@ -133,7 +124,6 @@ header {
 .footer-newsletter > h4 {
   margin: 0 0 10px 0;
   font-size: 1.2em;
-  /* color: rgb(255, 255, 255); */
 }
 
 .social-icons {
@@ -164,7 +154,7 @@ header {
   border: none;
   outline: none;
   border-radius: 10px;
-  background-color: #f5f5f5;
+  background-color: white;
   color: #333;
   min-width: 200px;
 }
