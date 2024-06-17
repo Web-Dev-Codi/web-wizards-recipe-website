@@ -18,7 +18,7 @@ Welcome to the Wizard Recipes Website! This platform is dedicated to bringing yo
 
 - **Diverse Recipes**: Explore a wide range of recipes from different countries and regions.
 - **Search and Filter**: Easily find recipes by cuisine, ingredients, dietary restrictions, and cooking methods.
-- **User Reviews and Ratings**: Read reviews and see ratings from other users to choose the best recipes.
+<!-- - **User Reviews and Ratings**: Read reviews and see ratings from other users to choose the best recipes. -->
 - **Step-by-Step Instructions**: Follow detailed instructions and tips to ensure perfect results.
 
 ## Getting Started
@@ -33,7 +33,7 @@ To get started with the Wizard Recipes Website, follow these steps:
 
 ### Browsing Recipes
 
-- Navigate through the categories to find recipes based on cuisines such as Italian, C, Mexican, Indian, and more.
+- Navigate through the categories to find recipes based on cuisines such as Italian, American, German, Cameroon, and more.
 - Use the search function to look for recipes by specific ingredients or dish names.
 - Apply filters to refine your search according to dietary preferences (e.g., vegetarian, gluten-free).
 
