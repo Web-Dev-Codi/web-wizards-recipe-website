@@ -35,7 +35,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    padding: 10px;
+    padding: 10px; 
 }
 
 .dot-wrapper-1,
@@ -353,18 +353,7 @@ main {
 }
 .foodbox button:hover{
     background-color: var(--button-green);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-top: 10px;
-    width: 10em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
+    color: white; 
 }
 .foodbox p{
     font-size: large;
