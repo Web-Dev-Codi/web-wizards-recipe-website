@@ -109,15 +109,15 @@ main {
     font-style: normal;
 }
 
-.hero-heading > * {
+.hero-heading>* {
     padding: 15px 0px;
 }
 
 .explore {
-  color: white;
+    color: white;
 }
 
-.center-hero-wrapper > div {
+.center-hero-wrapper>div {
     background-color: white;
     width: 10px;
     height: 135px;
@@ -126,14 +126,13 @@ main {
 }
 
 .heading-color {
-    /* padding-top: 20px; */
-    color: rgb(129, 190, 129)
+    color: var(--green);
 }
 
 .hero-button {
     width: 165px;
     height: 50px;
-    border: 1px solid #746D17;
+    border: 1px solid var(--button-green);
     border-radius: 23px;
     font-size: 22px;
     font-weight: 700;
@@ -141,7 +140,7 @@ main {
     margin: 12px 7px;
     color: white;
     text-transform: uppercase;
-    background-color: #746D17;
+    background-color: var(--button-green);
 }
 
 .chevron {
