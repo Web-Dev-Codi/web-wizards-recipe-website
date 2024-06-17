@@ -20,22 +20,35 @@ html {
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
 
 .logo img {
-  height: 50px;
+    height: 50px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-  padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+.navbar li {
+   margin-right:10rem ;
+   list-style: none;
+ 
+}
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .dot-wrapper-1,
@@ -178,6 +191,7 @@ main {
 }
 
 .navbar li {
+<<<<<<< HEAD
   margin-left: 20px;
   display: inline;
   justify-content: space-between;
@@ -468,4 +482,9 @@ main {
 #item-3:target~.item-3 {
   z-index: 3;
   opacity: 1;
+=======
+    margin-left: 20px;
+    display: inline;
+    justify-content: space-between;
+>>>>>>> 0d77b458cd94bd68be48205e85c1f3449287f18b
 }
