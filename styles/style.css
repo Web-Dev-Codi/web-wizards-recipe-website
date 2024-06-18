@@ -20,7 +20,7 @@ html {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 10vh;
 }
 
@@ -41,9 +41,8 @@ header {
 }
 
 .navbar li {
-    margin-right: 10rem;
+    margin-right: 2rem;
     list-style: none;
-
 }
 
 .navbar li a {
