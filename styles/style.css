@@ -204,7 +204,7 @@ main {
 }
 
 .footer {
-    color: rgb(255, 255, 255);
+    color: rgb(223, 227, 226);
     padding: 20px 0;
     text-align: center;
 }
@@ -213,6 +213,7 @@ main {
     margin: 0;
     padding: 10px 0;
     font-size: 1.5em;
+    color: rgb(29, 30, 12);
 }
 
 .footer-middle {
@@ -220,16 +221,15 @@ main {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
-    /* color: rgb(255, 255, 255); */
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
 
-.footer-follow>h4,
-.footer-newsletter>h4 {
+.footer-follow h4,
+.footer-newsletter h4 {
     margin: 0 0 10px 0;
     font-size: 1.2em;
-    /* color: rgb(255, 255, 255); */
+    color: rgb(29, 30, 12);
 }
 
 .social-icons {
@@ -238,7 +238,7 @@ main {
 }
 
 .social-icon {
-    color: rgb(255, 255, 255);
+    color: rgb(223, 227, 226);
     font-size: 24px;
     text-decoration: none;
 }
@@ -252,6 +252,7 @@ main {
     position: relative;
     overflow: hidden;
     border: none;
+    display: flex;
     align-items: center;
 }
 
@@ -299,13 +300,13 @@ main {
 }
 
 .footer-links a {
-    color: rgb(255, 255, 255);
+    color: rgb(223, 227, 226);
     text-decoration: none;
 }
 
 .footer-bottom p {
     margin: 10px 0 0 0;
-    color: rgb(255, 255, 255);
+    color: rgb(223, 227, 226);
 }
 
 /* nikolas css for foodbox */
