@@ -13,10 +13,34 @@
 
 body {
     height: 100%;
+    
 }
+    
 
 html {
-    background-color: #F7B787;
+    background-color: rgb(157, 207, 186);
+}
+
+.background-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Instrument Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0px 5px;
+    opacity: 0.6;
+    
+
 }
 
 header {
@@ -61,7 +85,7 @@ main {
 }
 
 .hero {
-    border: 2px solid red;
+    
     display: flex;
     justify-content: center;
     width: 90%;
@@ -164,7 +188,7 @@ main {
 
 .left-hero {
     width: 650px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .hero-left-wrapper {
