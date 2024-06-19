@@ -19,15 +19,16 @@ html {
 
 body {
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/images/pic4.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
 }
 
 header {
-    width: 100%;
+    /* width: 100%; */
     height: 10vh;
+    position: relative;
 }
 
 .logo img {
@@ -39,6 +40,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .navbar ul {
@@ -47,7 +52,9 @@ header {
 }
 
 .navbar li {
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
+    display: inline;
+    margin: 0px 50px;
     list-style: none;
 
 }
@@ -546,4 +553,58 @@ input[type=submit]:hover {
 
 #form-submit:hover {
     background-color: #45a049;
+}
+
+
+
+@media (width < 1200px) {
+    .hero {
+        flex-direction: column;
+        margin: 100px auto;
+    }
+
+    .left-hero {
+        /* width: 700px; */
+        margin: 0 auto;
+    }
+
+    .hero-left-wrapper {
+        width: 100%;
+    }
+
+    .right-hero {
+        width: 100%;
+    }
+
+    .carousel-wrapper {
+        margin: 50px auto;
+        width: 400px;
+    }
+
+    .box {
+        width: 400px;
+        height: max-content;
+    }
+
+    .carousel-item {
+        padding: 0;
+        transition: none;
+    }
+
+    .arrow-prev {
+        left: -15px;
+        position: absolute;
+        top: 45%;
+    }
+
+    .arrow-next {
+        right: -15px;
+        position: absolute;
+        top: 45%;
+    }
+
+    .foodbox img {
+        margin-top: 20px;
+        animation: none;
+    }
 }
