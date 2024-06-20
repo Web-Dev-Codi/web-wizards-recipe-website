@@ -320,8 +320,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20vw;
-    height: 65vh;
+    width: 400px;
+    height: 590px;
     background-color: rgba(245, 236, 236, 0.315);
     box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
     margin-top: -25px;
@@ -344,7 +344,7 @@ main {
     height: 50%;
     object-fit: cover;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
     animation: showRight 2s ease forwards;
@@ -415,9 +415,9 @@ main {
 }
 
 .carousel-wrapper {
-    height: 65vh;
+    height: 590px;
     position: relative;
-    width: 20vw;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -458,14 +458,14 @@ main {
     color: white;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
     .arrow,
     .light .arrow {
         background-size: 10px;
         background-position: 10px 50%;
     }
-}
+} */
 
 
 /*Select every element*/
