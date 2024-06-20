@@ -21,6 +21,7 @@ html {
 body {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -69,33 +70,6 @@ header {
 .navbar li a:hover {
     text-decoration: underline;
     color: var(--green);
-=======
-body {
-    height: 100%;
-}
-
-html {
-    background-color: #F7B787;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-
-.logo img {
-    height: 50px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    padding: 10px;
->>>>>>> 58f4497 (Saved Maybe)
 }
 
 .dot-wrapper-1,
@@ -121,7 +95,6 @@ main {
 }
 
 .hero {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
     width: 90%;
@@ -208,10 +181,7 @@ main {
     color: white;
     text-transform: uppercase;
     background-color: var(--button-green);
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 58f4497 (Saved Maybe)
 }
 
 .chevron {
@@ -245,11 +215,7 @@ main {
 .hero-left-wrapper {
     display: flex;
     justify-content: end;
-<<<<<<< HEAD
     width: 50%;
-=======
-    width: 40%;
->>>>>>> 58f4497 (Saved Maybe)
 }
 
 .right-hero {
@@ -475,13 +441,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
     width: 400px;
     height: 590px;
-=======
-    width: 20vw;
-    height: 65vh;
->>>>>>> 58f4497 (Saved Maybe)
     background-color: rgba(245, 236, 236, 0.315);
     box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
     margin-top: -25px;
@@ -508,11 +469,7 @@ main {
     height: 50%;
     object-fit: cover;
     border-radius: 15px;
-<<<<<<< HEAD
     margin-top: 20px;
-=======
-    margin-top: 10px;
->>>>>>> 58f4497 (Saved Maybe)
     margin-left: 10%;
     margin-right: 10%;
     animation: showRight 2s ease forwards;
@@ -521,10 +478,7 @@ main {
 }
 
 .foodbox h2 {
-<<<<<<< HEAD
     margin-top: 10px;
-=======
->>>>>>> 58f4497 (Saved Maybe)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -540,11 +494,7 @@ main {
     padding: 10px 20px;
     border-radius: 15px;
     cursor: pointer;
-<<<<<<< HEAD
     margin-top: 5px;
-=======
-    margin-top: 10px;
->>>>>>> 58f4497 (Saved Maybe)
     width: 10em;
     display: flex;
     justify-content: space-between;
@@ -575,13 +525,14 @@ main {
 }
 
 .foodbox p {
-    font-size: large;
-<<<<<<< HEAD
+    text-overflow: ellipsis;
+    padding: 5px;
+    height: 160px;
+    overflow: hidden;
+    white-space: wrap;
+    font-size: 16px;
     margin: 3%;
     line-height: 1.6;
-=======
-    margin: 10%;
->>>>>>> 58f4497 (Saved Maybe)
 
 
 }
@@ -610,15 +561,9 @@ main {
 }
 
 .carousel-wrapper {
-<<<<<<< HEAD
     height: 590px;
     position: relative;
     width: 400px;
-=======
-    height: 65vh;
-    position: relative;
-    width: 20vw;
->>>>>>> 58f4497 (Saved Maybe)
     margin: 0 auto;
 }
 
@@ -658,18 +603,6 @@ main {
 .light {
     color: white;
 }
-
-<<<<<<< HEAD
-=======
-@media (max-width: 480px) {
-
-    .arrow,
-    .light .arrow {
-        background-size: 10px;
-        background-position: 10px 50%;
-    }
-}
-
 
 >>>>>>> 58f4497 (Saved Maybe)
 /*Select every element*/
@@ -901,6 +834,4 @@ input[type=submit]:hover {
     .social-icons {
         justify-content: center;
     }
-=======
->>>>>>> 58f4497 (Saved Maybe)
 }
