@@ -228,20 +228,13 @@ main {
     margin: 0;
     padding: 10px 0;
     font-size: 1.5em;
+    color: rgb(255, 255, 255);
 }
 
 .footer-middle {
-
-    color: rgb(223, 227, 226);
+    color: rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
-}
-
-.footer-top h3 {
-    margin: 0;
-    padding: 10px 0;
-    font-size: 1.5em;
-    color: rgb(29, 30, 12);
 }
 
 .footer-middle {
@@ -255,32 +248,16 @@ main {
 
 .footer-follow>h4,
 .footer-newsletter>h4 {
+    color: rgb(255, 255, 255);
     margin: 0 0 10px 0;
     font-size: 1.2em;
 }
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icon {
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    color: rgb(116, 109, 20);
-}
-
-/* .footer-newsletter form {} */
 
 .footer-follow h4,
 .footer-newsletter h4 {
+    color: rgb(255, 255, 255);
     margin: 0 0 10px 0;
     font-size: 1.2em;
-    color: rgb(29, 30, 12);
 }
 
 .social-icons {
@@ -344,8 +321,6 @@ main {
     padding: 10px 0;
 }
 
-.footer-links {}
-
 .footer-newsletter input {
     padding: 5px;
     border: none;
@@ -368,45 +343,39 @@ main {
     right: 0px;
 }
 
-.footer-newsletter button:hover {
-    background-color: #3f3f3f;
+/* Imprint */
+
+
+.imprint-main,
+.legal-main,
+.privacy-main {
+    display: grid;
+    place-content: center;
+    height: 100vh;
 }
 
-.footer-newsletter a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
+.imprint,
+.legal,
+.privacy {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    box-sizing: border-box;
+
 }
 
-.footer-bottom {
-    padding: 10px 0;
+.imprint>h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: center;
 }
 
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 10px 0;
-}
-
-.footer-links a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.footer-bottom p {
-    margin: 10px 0 0 0;
-    color: rgb(255, 255, 255);
-}
-
-.footer-links a {
-    color: rgb(223, 227, 226);
-    text-decoration: none;
-}
-
-.footer-bottom p {
-    margin: 10px 0 0 0;
-    color: rgb(223, 227, 226);
+.imprint h3~p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
 
 /* nikolas css for foodbox */
