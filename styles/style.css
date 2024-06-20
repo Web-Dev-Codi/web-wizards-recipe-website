@@ -11,6 +11,7 @@
 }
 
 
+<<<<<<< HEAD
 
 html {
     background-color: #F7B787;
@@ -68,6 +69,33 @@ header {
 .navbar li a:hover {
     text-decoration: underline;
     color: var(--green);
+=======
+body {
+    height: 100%;
+}
+
+html {
+    background-color: #F7B787;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+>>>>>>> 58f4497 (Saved Maybe)
 }
 
 .dot-wrapper-1,
@@ -93,10 +121,17 @@ main {
 }
 
 .hero {
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     width: 90%;
     margin: 75px auto;
+=======
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+>>>>>>> 58f4497 (Saved Maybe)
 }
 
 .top-hero,
@@ -173,7 +208,10 @@ main {
     color: white;
     text-transform: uppercase;
     background-color: var(--button-green);
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 58f4497 (Saved Maybe)
 }
 
 .chevron {
@@ -197,13 +235,21 @@ main {
 
 .left-hero {
     width: 650px;
+<<<<<<< HEAD
     /* border: 2px solid blue; */
+=======
+    border: 2px solid blue;
+>>>>>>> 58f4497 (Saved Maybe)
 }
 
 .hero-left-wrapper {
     display: flex;
     justify-content: end;
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 40%;
+>>>>>>> 58f4497 (Saved Maybe)
 }
 
 .right-hero {
@@ -219,6 +265,7 @@ main {
 /* Footer */
 
 .footer {
+<<<<<<< HEAD
     color: rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
@@ -232,12 +279,28 @@ main {
   }
 
   .footer-middle {
+=======
+    color: rgb(223, 227, 226);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-top h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.5em;
+    color: rgb(29, 30, 12);
+}
+
+.footer-middle {
+>>>>>>> 58f4497 (Saved Maybe)
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+<<<<<<< HEAD
   }
 
   .footer-follow > h4,
@@ -262,11 +325,39 @@ main {
   }
 
   .footer-newsletter form {
+=======
+}
+
+.footer-follow h4,
+.footer-newsletter h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: rgb(29, 30, 12);
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: rgb(223, 227, 226);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: rgb(116, 109, 20);
+}
+
+.footer-newsletter form {
+>>>>>>> 58f4497 (Saved Maybe)
     display: inline-block;
     position: relative;
     overflow: hidden;
     border: none;
     align-items: center;
+<<<<<<< HEAD
   }
 
   .footer-newsletter input {
@@ -308,10 +399,52 @@ main {
   }
 
   .footer-links {
+=======
+}
+
+.footer-newsletter input {
+    padding: 5px;
+    border: none;
+    border-radius: 23px;
+    background-color: #f5f5f5;
+    color: #333;
+    min-width: 200px;
+}
+
+.footer-newsletter button {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    border-radius: 23px;
+    font-size: 16px;
+    padding: 2px 3px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #746d17;
+    right: 0px;
+}
+
+.footer-newsletter button:hover {
+    background-color: #3f3f3f;
+}
+
+.footer-newsletter a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-links {
+>>>>>>> 58f4497 (Saved Maybe)
     display: flex;
     justify-content: center;
     gap: 15px;
     margin: 10px 0;
+<<<<<<< HEAD
   }
 
   .footer-links a {
@@ -323,14 +456,32 @@ main {
     margin: 10px 0 0 0;
     color: rgb(255, 255, 255);
   }
+=======
+}
+
+.footer-links a {
+    color: rgb(223, 227, 226);
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0 0;
+    color: rgb(223, 227, 226);
+}
+>>>>>>> 58f4497 (Saved Maybe)
 
 /* nikolas css for foodbox */
 .box {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     width: 400px;
     height: 590px;
+=======
+    width: 20vw;
+    height: 65vh;
+>>>>>>> 58f4497 (Saved Maybe)
     background-color: rgba(245, 236, 236, 0.315);
     box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
     margin-top: -25px;
@@ -338,6 +489,10 @@ main {
 }
 
 .foodbox {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 58f4497 (Saved Maybe)
     width: 100%;
     height: 100%;
     background-color: var(--off-white);
@@ -353,7 +508,11 @@ main {
     height: 50%;
     object-fit: cover;
     border-radius: 15px;
+<<<<<<< HEAD
     margin-top: 20px;
+=======
+    margin-top: 10px;
+>>>>>>> 58f4497 (Saved Maybe)
     margin-left: 10%;
     margin-right: 10%;
     animation: showRight 2s ease forwards;
@@ -362,7 +521,10 @@ main {
 }
 
 .foodbox h2 {
+<<<<<<< HEAD
     margin-top: 10px;
+=======
+>>>>>>> 58f4497 (Saved Maybe)
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,7 +540,11 @@ main {
     padding: 10px 20px;
     border-radius: 15px;
     cursor: pointer;
+<<<<<<< HEAD
     margin-top: 5px;
+=======
+    margin-top: 10px;
+>>>>>>> 58f4497 (Saved Maybe)
     width: 10em;
     display: flex;
     justify-content: space-between;
@@ -392,12 +558,30 @@ main {
 .foodbox button:hover {
     background-color: var(--button-green);
     color: white;
+<<<<<<< HEAD
+=======
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+>>>>>>> 58f4497 (Saved Maybe)
 }
 
 .foodbox p {
     font-size: large;
+<<<<<<< HEAD
     margin: 3%;
     line-height: 1.6;
+=======
+    margin: 10%;
+>>>>>>> 58f4497 (Saved Maybe)
 
 
 }
@@ -426,9 +610,15 @@ main {
 }
 
 .carousel-wrapper {
+<<<<<<< HEAD
     height: 590px;
     position: relative;
     width: 400px;
+=======
+    height: 65vh;
+    position: relative;
+    width: 20vw;
+>>>>>>> 58f4497 (Saved Maybe)
     margin: 0 auto;
 }
 
@@ -469,6 +659,19 @@ main {
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width: 480px) {
+
+    .arrow,
+    .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+
+>>>>>>> 58f4497 (Saved Maybe)
 /*Select every element*/
 [id^="item"] {
     display: none;
@@ -493,6 +696,7 @@ main {
 #item-3:target~.item-3 {
     z-index: 3;
     opacity: 1;
+<<<<<<< HEAD
 }
 
 .contact {
@@ -697,4 +901,6 @@ input[type=submit]:hover {
     .social-icons {
         justify-content: center;
     }
+=======
+>>>>>>> 58f4497 (Saved Maybe)
 }
