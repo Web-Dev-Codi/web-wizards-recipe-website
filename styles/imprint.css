@@ -55,6 +55,12 @@ header {
   color: #ffffff;
 }
 
+.headline {
+  
+  object-fit: cover;
+  align-items: center;
+  margin-top: 90px;
+}
 .imprint,
 .privacy,
 .legal{
@@ -63,21 +69,32 @@ header {
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-color: rgba(245, 236, 236, 0.315);
+  background-color:rgb(223, 227, 226);
   box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
   margin-top: -25px;
   width: 50%;
   height: 100%;
   box-sizing: border-box;
-  color: rgb(29, 27, 27);
+  color: rgb(0, 0, 0);
   margin: 0 auto;
+  min-height: 100vh
 }
 
 .imprint,
 .privacy,
-.legal p {
-  padding: 20px;
+.legal p, h4{
+  padding: 30px;
   font-size: 1.2em;
+}
+
+
+.imprint,
+.privacy,
+.legal > h3 {
+  object-fit: cover;
+  align-items: center;
+  margin-top: 90px;
+
 }
 
 
@@ -93,6 +110,7 @@ header {
   color: rgb(255, 255, 255);
   padding: 20px 0;
   text-align: center;
+  margin-top: auto
 }
 
 .footer-top h3 {
