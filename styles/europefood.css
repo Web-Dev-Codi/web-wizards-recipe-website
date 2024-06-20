@@ -112,7 +112,7 @@
         font-size: 60px;
         text-align: center;
         padding: 50px;
-        background-image: url(../images/italyfood.jpg);
+        /* background-image: url(../images/italyfood.jpg); */
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 100%;
@@ -120,13 +120,14 @@
         width: 80vw;
         height: 40vh;
         margin-left: 10%;
+        color: var(--off-white);
         
         
     }
 
       h2 {
         text-align: center;
-        color: black; 
+        color: var(--off-white); 
         font-size: 40px;
        
           }

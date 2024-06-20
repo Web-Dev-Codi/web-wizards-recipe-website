@@ -19,7 +19,7 @@ html {
 
 body {
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/images/pic4.jpg");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/images/pic4.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -99,6 +99,7 @@ header {
 .left img{
     border-radius: 15%;
     margin: 2em;
+    height: 42vh;
 }
 img{
     animation-name: img;
@@ -156,6 +157,7 @@ img{
 .right img{
     border-radius: 15%;
     margin: 2em;
+    
 }
 .mainbox button{
     display: flex;

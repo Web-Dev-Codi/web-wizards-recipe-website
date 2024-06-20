@@ -361,7 +361,7 @@ main {
     padding: 10px 20px;
     border-radius: 15px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 10em;
     display: flex;
     justify-content: space-between;
@@ -379,7 +379,8 @@ main {
 
 .foodbox p {
     font-size: large;
-    margin: 10%;
+    margin: 3%;
+    line-height: 1.6;
 
 
 }
