@@ -20,29 +20,75 @@ body {
 html {
     background-color: #F7B787;
 }
-.box{
+
+header {
+    height: 75px;
+    position: relative;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    /* margin-right: 10rem; */
+    display: inline;
+    margin: 0px 50px;
+    list-style: none;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: var(--green);
+}
+.box {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 80vw;
-     min-height: 1000px;
+    min-height: 1000px;
     background-color: rgba(245, 236, 236, 0.644);
     box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
-   margin-left: -600px;
+    margin-left: -600px;
 
 }
 
-.foodbox{
+.foodbox {
 
     width: 100%;
     height: 100%;
     background-color: var(--off-white);
 
-   box-sizing: border-box;
+    box-sizing: border-box;
     color: rgb(29, 27, 27);
     background-color: rgba(255, 255, 255, 0.644);
-     }
-.foodbox img{
+}
+
+.foodbox img {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +103,8 @@ html {
     animation-delay: .4s;
 
 }
-.foodbox h2{
+
+.foodbox h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,8 +112,9 @@ html {
     font-weight: bolder;
 
 }
-.foodbox button{
-    background-color:  rgb(29, 30, 12);
+
+.foodbox button {
+    background-color: rgb(29, 30, 12);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -78,11 +126,12 @@ html {
     justify-content: space-between;
     align-items: center;
     margin-left: 6%;
-    padding-left: 15px ;
+    padding-left: 15px;
 
 
 }
-.foodbox button:hover{
+
+.foodbox button:hover {
     background-color: var(--button-green);
     color: white;
     border: none;
@@ -97,16 +146,18 @@ html {
 
 
 }
-.foodbox p{
+
+.foodbox p {
     font-size: large;
     margin: 10%;
 
 
 }
-.foodbox a{
+
+.foodbox a {
     text-decoration: none;
     color: white;
-    position:relative ;
+    position: relative;
     bottom: 10px;
     left: 10px;
     display: flex;
@@ -117,31 +168,35 @@ html {
 }
 
 @keyframes showRight {
-    0%{
+    0% {
         width: 0;
     }
-    100%{
+
+    100% {
         width: 80%;
     }
 }
-.carousel-wrapper{
-  height:65vh;
-  position: relative;
-  width:20vw;
-  margin: 0 auto;
+
+.carousel-wrapper {
+    height: 65vh;
+    position: relative;
+    width: 20vw;
+    margin: 0 auto;
 }
-.carousel-item{
- position: absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  padding:25px 50px;
-  opacity:0;
-  transition: all 0.5s ease-in-out;
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
-.arrow{
-  border: solid var(--off-white);
+
+.arrow {
+    border: solid var(--off-white);
     border-width: 0 5px 5px 0;
     display: inline-block;
     padding: 12px;
@@ -150,57 +205,61 @@ html {
 
 }
 
-.arrow-prev{
-  left: -565px;
-  position:absolute;
-  top:5%;
-  transform:translateY(-50%) rotate(135deg);
+.arrow-prev {
+    left: -565px;
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50%) rotate(135deg);
 }
 
-.arrow-next{
-    right:-620px;
-  position: absolute;
-  top:auto;
-  transform:translateY(-50%) rotate(-45deg);
-  }
+.arrow-next {
+    right: -620px;
+    position: absolute;
+    top: auto;
+    transform: translateY(-50%) rotate(-45deg);
+}
 
-.light{
-  color:white;
+.light {
+    color: white;
 }
 
 @media (max-width: 480px) {
-      .arrow, .light .arrow {
+
+    .arrow,
+    .light .arrow {
         background-size: 10px;
         background-position: 10px 50%;
-      }
     }
+}
 
 
 /*Select every element*/
 [id^="item"] {
     display: none;
-  }
+}
 
 .item-1 {
     z-index: 2;
     opacity: 1;
 
-  }
+}
 
 
-*:target ~ .item-1 {
+*:target~.item-1 {
     opacity: 0;
-  }
+}
 
-#item-1:target ~ .item-1 {
+#item-1:target~.item-1 {
     opacity: 1;
-  }
+}
 
-#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+#item-2:target~.item-2,
+#item-3:target~.item-3 {
     z-index: 3;
     opacity: 1;
-  }
-  .headerphoto {
+}
+
+.headerphoto {
     height: 30vh;
     background-image: linear-gradient(to right bottom, rgba(157, 207, 186, .8), rgba(223, 227, 226, 0.5), rgb(116, 109, 20, .5)), url(../images/epices-africaines.jpg);
     background-position: center;
@@ -210,8 +269,9 @@ html {
     width: 80vw;
     position: absolute;
     top: 25px;
-  }
-  h1 {
+}
+
+h1 {
     padding-top: 5vw;
     text-transform: capitalize;
     text-align: center;
@@ -219,80 +279,97 @@ html {
     font-size: 60px;
     padding-left: 5vw;
 }
+
 main {
-height: 100%;
+    height: 100%;
 }
 
-.first-section h3,h4,p {
+.first-section h3,
+h4,
+p {
     font-size: larger;
     font-weight: 700;
     padding-left: 10px;
 
 
 }
+
 .first-section ul {
     column-count: 2;
 }
+
 ul li {
     list-style: none;
 }
-.first-section > ul > li> img {
- height: 80px;
- border-radius: 30%;
- width: 80px;
+
+.first-section>ul>li>img {
+    height: 80px;
+    border-radius: 30%;
+    width: 80px;
 }
+
 .first-section ul li {
     display: flex;
     height: 80px;
     margin: 30px;
 }
+
 span {
     font-size: 13px;
     font-weight: bold;
     align-items: center;
     margin-left: .5rem;
 }
-.description-text{
+
+.description-text {
 
     margin-top: 30vh;
 
 }
+
 .description-text p {
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
 .numbers {
     font-size: 50px;
     font-weight: bold;
     padding-left: 10px;
 }
+
 .preparation-plan {
     display: flex;
     justify-content: space-around;
 }
-.preparation-plan img  {
+
+.preparation-plan img {
     height: 400px;
     width: 30vw;
 }
+
 .fish_grilled img {
     width: 60rem;
     height: 40rem;
     margin-left: 12%;
     margin-top: 2em;
 }
+
 em {
     opacity: .5;
 }
-.sub-section1 p{
+
+.sub-section1 p {
     margin: 0;
     padding: 10px;
 }
 
 /*footer*/
-footer{
+footer {
     margin-top: 2150px;
 
 }
+
 .footer {
     color: rgb(223, 227, 226);
     padding: 20px 0;
