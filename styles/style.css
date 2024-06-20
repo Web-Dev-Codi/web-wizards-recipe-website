@@ -11,8 +11,6 @@
 }
 
 
-<<<<<<< HEAD
-
 html {
     background-color: #F7B787;
     position: relative;
@@ -20,7 +18,6 @@ html {
 
 body {
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,12 +96,7 @@ main {
     justify-content: center;
     width: 90%;
     margin: 75px auto;
-=======
     border: 2px solid red;
-    display: flex;
-    justify-content: center;
-    width: 90%;
->>>>>>> 58f4497 (Saved Maybe)
 }
 
 .top-hero,
@@ -205,11 +197,6 @@ main {
 
 .left-hero {
     width: 650px;
-<<<<<<< HEAD
-    /* border: 2px solid blue; */
-=======
-    border: 2px solid blue;
->>>>>>> 58f4497 (Saved Maybe)
 }
 
 .hero-left-wrapper {
@@ -231,21 +218,21 @@ main {
 /* Footer */
 
 .footer {
-<<<<<<< HEAD
+
     color: rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
     margin-top: auto
-  }
+}
 
-  .footer-top h3 {
+.footer-top h3 {
     margin: 0;
     padding: 10px 0;
     font-size: 1.5em;
-  }
+}
 
-  .footer-middle {
-=======
+.footer-middle {
+
     color: rgb(223, 227, 226);
     padding: 20px 0;
     text-align: center;
@@ -259,40 +246,36 @@ main {
 }
 
 .footer-middle {
->>>>>>> 58f4497 (Saved Maybe)
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-<<<<<<< HEAD
-  }
+}
 
-  .footer-follow > h4,
-  .footer-newsletter > h4 {
+.footer-follow>h4,
+.footer-newsletter>h4 {
     margin: 0 0 10px 0;
     font-size: 1.2em;
-  }
+}
 
-  .social-icons {
+.social-icons {
     display: flex;
     gap: 15px;
-  }
+}
 
-  .social-icon {
+.social-icon {
     color: rgb(255, 255, 255);
     font-size: 24px;
     text-decoration: none;
-  }
-
-  .social-icon:hover {
-    color: rgb(116, 109, 20);
-  }
-
-  .footer-newsletter form {
-=======
 }
+
+.social-icon:hover {
+    color: rgb(116, 109, 20);
+}
+
+/* .footer-newsletter form {} */
 
 .footer-follow h4,
 .footer-newsletter h4 {
@@ -317,16 +300,14 @@ main {
 }
 
 .footer-newsletter form {
->>>>>>> 58f4497 (Saved Maybe)
     display: inline-block;
     position: relative;
     overflow: hidden;
     border: none;
     align-items: center;
-<<<<<<< HEAD
-  }
+}
 
-  .footer-newsletter input {
+.footer-newsletter input {
     padding: 10px;
     border: none;
     outline: none;
@@ -334,9 +315,9 @@ main {
     background-color: white;
     color: #333;
     min-width: 200px;
-  }
+}
 
-  .footer-newsletter button {
+.footer-newsletter button {
     position: absolute;
     width: 40px;
     height: 35px;
@@ -348,25 +329,23 @@ main {
     color: white;
     background-color: var(--button-green);
     right: -1px;
-  }
+}
 
-  .footer-newsletter button:hover {
+.footer-newsletter button:hover {
     background-color: var(--button-green);
-  }
+}
 
-  .footer-newsletter a {
+.footer-newsletter a {
     display: block;
     margin-top: 10px;
     text-decoration: none;
-  }
-
-  .footer-bottom {
-    padding: 10px 0;
-  }
-
-  .footer-links {
-=======
 }
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-links {}
 
 .footer-newsletter input {
     padding: 5px;
@@ -405,24 +384,20 @@ main {
 }
 
 .footer-links {
->>>>>>> 58f4497 (Saved Maybe)
     display: flex;
     justify-content: center;
     gap: 15px;
     margin: 10px 0;
-<<<<<<< HEAD
-  }
+}
 
-  .footer-links a {
+.footer-links a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-  }
+}
 
-  .footer-bottom p {
+.footer-bottom p {
     margin: 10px 0 0 0;
     color: rgb(255, 255, 255);
-  }
-=======
 }
 
 .footer-links a {
@@ -434,7 +409,6 @@ main {
     margin: 10px 0 0 0;
     color: rgb(223, 227, 226);
 }
->>>>>>> 58f4497 (Saved Maybe)
 
 /* nikolas css for foodbox */
 .box {
@@ -450,10 +424,6 @@ main {
 }
 
 .foodbox {
-<<<<<<< HEAD
-=======
-
->>>>>>> 58f4497 (Saved Maybe)
     width: 100%;
     height: 100%;
     background-color: var(--off-white);
@@ -508,8 +478,6 @@ main {
 .foodbox button:hover {
     background-color: var(--button-green);
     color: white;
-<<<<<<< HEAD
-=======
     border: none;
     padding: 10px 20px;
     border-radius: 15px;
@@ -519,9 +487,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
->>>>>>> 58f4497 (Saved Maybe)
 }
 
 .foodbox p {
@@ -604,7 +569,6 @@ main {
     color: white;
 }
 
->>>>>>> 58f4497 (Saved Maybe)
 /*Select every element*/
 [id^="item"] {
     display: none;
@@ -629,7 +593,6 @@ main {
 #item-3:target~.item-3 {
     z-index: 3;
     opacity: 1;
-<<<<<<< HEAD
 }
 
 .contact {
