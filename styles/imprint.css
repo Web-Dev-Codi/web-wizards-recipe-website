@@ -1,60 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --green: rgb(157, 207, 186);
-  --off-white: rgb(223, 227, 226);
-  --button-green: rgb(116, 109, 20);
-}
-
-html {
-  position: relative;
-}
-
-body {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/pic4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; /* Add this line */
-  z-index: -1;
-}
-
-header {
-  width: 100%;
-  height: 10vh;
-}
-
-.logo img {
-  height: 70px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.navbar ul {
-  display: flex;
-  justify-content: center;
-}
-
-.navbar li {
-  margin-right: 10rem;
-  list-style: none;
-}
-
-.navbar li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .imprint,
 .privacy,
 .legal{
@@ -67,7 +10,6 @@ header {
   box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
   margin-top: -25px;
   width: 50%;
-  height: 100%;
   box-sizing: border-box;
   color: rgb(29, 27, 27);
   margin: 0 auto;

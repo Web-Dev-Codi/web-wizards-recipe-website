@@ -19,15 +19,15 @@ html {
 
 body {
     height: 100%;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/images/pic4.jpg"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
 }
 
 header {
-    width: 100%;
-    height: 10vh;
+    height: 75px;
+    position: relative;
 }
 
 .logo img {
@@ -39,6 +39,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .navbar ul {
@@ -47,7 +53,9 @@ header {
 }
 
 .navbar li {
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
+    display: inline;
+    margin: 0px 50px;
     list-style: none;
 
 }
@@ -57,109 +65,132 @@ header {
     color: #ffffff;
 }
 
-.mainbox{
+.navbar li a:hover {
+    text-decoration: underline;
+    color: var(--green);
+}
+
+.mainbox {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15vh;
     margin-top: 10vh;
-    
+
 }
-.box{
+
+.box {
     background-color: var(--off-white);
     height: 100%;
     display: block;
     justify-content: center;
     align-items: center;
 }
-.box h1{ 
+
+.box h1 {
     color: var(--button-green);
     font-size: 3rem;
     justify-content: center;
-    animation: h1 1s cubic-bezier(0, 0.7, 1, 0.1); 
+    animation: h1 1s cubic-bezier(0, 0.7, 1, 0.1);
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
-@keyframes h1{
-    0%{
+
+@keyframes h1 {
+    0% {
         transform: scale(0.5);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
-.left{
+
+.left {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
     margin: 2em;
     width: 70vh;
 }
-.left img{
+
+.left img {
     border-radius: 15%;
     margin: 2em;
     height: 42vh;
 }
-img{
+
+img {
     animation-name: img;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     width: 90%;
-    
+
 }
-.left{
+
+.left {
     animation-name: left;
     animation-duration: 1s;
     animation-timing-function: ease-in;
 
 }
-.right{
+
+.right {
     animation-name: right;
     animation-duration: 1s;
     animation-timing-function: ease-in;
 }
-@keyframes right{
-    0%{
+
+@keyframes right {
+    0% {
         transform: scale(0.5);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
-@keyframes left{
-    0%{
+
+@keyframes left {
+    0% {
         transform: scale(0.5);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
-@keyframes img{
-    0%{
+
+@keyframes img {
+    0% {
         transform: scale(0.5);
-        
+
     }
-    100%{
+
+    100% {
         transform: scale(1);
-       
+
     }
 }
-.right{
+
+.right {
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid white;
-   
+
     width: 70vh;
-    
+
 }
-.right img{
+
+.right img {
     border-radius: 15%;
     margin: 2em;
-    
+
 }
-.mainbox button{
+
+.mainbox button {
     display: flex;
     background-color: var(--button-green);
     color: white;
@@ -174,14 +205,17 @@ img{
     margin-left: 20%;
     margin-bottom: 5px;
 }
-.mainbox button:hover{
+
+.mainbox button:hover {
     background-color: #3f3f3f;
-    
+
 }
-.mainbox button a:hover{
+
+.mainbox button a:hover {
     color: var(--button-green);
 }
-.mainbox button a{
+
+.mainbox button a {
     text-decoration: none;
     color: white;
     font-weight: 900;
