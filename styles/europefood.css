@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    :root {
+        --green: rgb(157, 207, 186);
+        --off-white: rgb(223, 227, 226);
+        --button-green: rgb(116, 109, 20);
+    }
+
+
+    body {
+        height: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/images/pic4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+    }
+    header {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .logo img {
+        height: 70px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar li {
+        margin-right: 10rem;
+        list-style: none;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(223, 227, 226);
+        margin: 200px 150px 30px 150px;
+        padding: 100px;
+        background-color:rgb(223, 227, 226)
+
+
+    }
+
+    .bobotie-img , .potjie-img {
+        object-fit: cover;
+        align-items: center;
+        margin-top: 90px;
+    }
+
+    .extra-info {
+        list-style: none;
+        align-items: center;
+        padding: 30px;
+        text-align: center;
+        color: black;
+
+    }
+
+    .ingredients-list , h3 {
+        font-family: "Macondo", cursive;
+        text-align: center;
+        color: black;
+        list-style: square;
+        padding: 20px;
+
+    }
+
+    .instructions-list {
+        font-family: "Macondo", cursive;
+        text-align: center;
+        color: black;
+        list-style: none;
+        padding: 20px;
+    }
+
+    .notes {
+        font-family: "Macondo", cursive;
+        text-align: center;
+        border: solid 2px black;
+        color: black;
+        padding: 40px;
+    }
+
+
+
+   h1 {
+        font-family: "Macondo", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        text-align: center;
+        padding: 50px;
+        /* background-image: url(../images/italyfood.jpg); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+        position: absolute;
+        width: 80vw;
+        height: 40vh;
+        margin-left: 10%;
+        color: var(--off-white);
+
+
+    }
+
+      h2 {
+        text-align: center;
+        color: var(--off-white);
+        font-size: 40px;
+
+          }
+
+
+
+      .origin-bobotie , .origin-potjie {
+        font-style: normal;
+        text-align: center;
+        padding: 20px;
+        border: solid 2px black;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        font-weight: bold;
+
+      }
+
+
+
+      footer {
+        text-align: center;
+        background-image: url(./images/epices-africaines.jpg);
+        background-size: cover;
+        padding: 20px;
+        margin: 20px;
+
+      }
+.footer {
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto
+  }
+
+  .footer-top h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.5em;
+  }
+
+  .footer-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .footer-follow > h4,
+  .footer-newsletter > h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  .social-icon {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .social-icon:hover {
+    color: rgb(116, 109, 20);
+  }
+
+  .footer-newsletter form {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    align-items: center;
+  }
+
+  .footer-newsletter input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    min-width: 200px;
+  }
+
+  .footer-newsletter button {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 0 10px 10px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 3px;
+    color: white;
+    background-color: var(--button-green);
+    right: -1px;
+  }
+
+  .footer-newsletter button:hover {
+    background-color: var(--button-green);
+  }
+
+  .footer-newsletter a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .footer-bottom {
+    padding: 10px 0;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+  }
+
+  .footer-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  .footer-bottom p {
+    margin: 10px 0 0 0;
+    color: rgb(255, 255, 255);
+  }
