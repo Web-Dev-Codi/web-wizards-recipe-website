@@ -392,7 +392,12 @@ main {
 }
 
 .foodbox p {
-    font-size: large;
+    text-overflow: ellipsis;
+    padding: 5px;
+    height: 160px;
+    overflow: hidden;
+    white-space: wrap;
+    font-size: 16px;
     margin: 3%;
     line-height: 1.6;
 
