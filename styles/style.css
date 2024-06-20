@@ -252,7 +252,6 @@ main {
     position: relative;
     overflow: hidden;
     border: none;
-    display: flex;
     align-items: center;
 }
 
@@ -547,4 +546,112 @@ input[type=submit]:hover {
 
 #form-submit:hover {
     background-color: #45a049;
+}
+
+/* Footer */
+
+.footer {
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-top h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.5em;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    /* color: rgb(255, 255, 255); */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-follow>h4,
+.footer-newsletter>h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    /* color: rgb(255, 255, 255); */
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: rgb(116, 109, 20);
+}
+
+.footer-newsletter form {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    align-items: center;
+  }
+
+  .footer-newsletter input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+    min-width: 200px;
+  }
+
+  .footer-newsletter button {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 0 10px 10px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 3px;
+    color: white;
+    background-color: var(--button-green);
+    right: -1px;
+  }
+  .footer-newsletter button:hover {
+    background-color: var(--button-green);
+  }
+
+.footer-newsletter a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0 0;
+    color: rgb(255, 255, 255);
 }
