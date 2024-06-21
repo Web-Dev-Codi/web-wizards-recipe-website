@@ -91,6 +91,9 @@ header {
     background-color: white;
     opacity: .8;
 }
+.id-cards-container p {
+    margin-bottom: 2em;
+}
 
 .picture-of-participants {
     width: 15em;
