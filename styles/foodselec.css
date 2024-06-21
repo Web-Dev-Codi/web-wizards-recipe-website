@@ -79,7 +79,7 @@ header {
 
 }
 
-.box {
+.box-food {
     background-color: var(--off-white);
     height: 100%;
     display: block;
@@ -87,7 +87,7 @@ header {
     align-items: center;
 }
 
-.box h1 {
+.box-food h1 {
     color: var(--button-green);
     font-size: 3rem;
     justify-content: center;
@@ -106,7 +106,7 @@ header {
     }
 }
 
-.left {
+.left-selection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,13 +115,13 @@ header {
     width: 70vh;
 }
 
-.left img {
+.left-selection img {
     border-radius: 15%;
     margin: 2em;
     height: 42vh;
 }
 
-img {
+ .box-food img {
     animation-name: img;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -129,14 +129,14 @@ img {
 
 }
 
-.left {
+.left-selection {
     animation-name: left;
     animation-duration: 1s;
     animation-timing-function: ease-in;
 
 }
 
-.right {
+.right-selection {
     animation-name: right;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -174,7 +174,7 @@ img {
     }
 }
 
-.right {
+.right-selection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +184,7 @@ img {
 
 }
 
-.right img {
+.right-selection img {
     border-radius: 15%;
     margin: 2em;
 
