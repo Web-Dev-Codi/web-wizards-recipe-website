@@ -1,77 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --green: rgb(157, 207, 186);
-    --off-white: rgb(223, 227, 226);
-    --button-green: rgb(116, 109, 20);
-}
-
-
-body {
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-}
-
-header {
-    height: 75px;
-    position: relative;
-}
-
-.logo img {
-    height: 70px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    font-weight: 900;
-    font-size: 16px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
-.navbar ul {
-    display: flex;
-    justify-content: center;
-}
-
-.navbar li {
-    /* margin-right: 10rem; */
-    display: inline;
-    margin: 0px 50px;
-    list-style: none;
-
-}
-
-.navbar li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.navbar li a:hover {
-    text-decoration: underline;
-    color: var(--green);
-}
-
 .container {
+    /* font-family: "Macondo", cursive; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(223, 227, 226);
-    margin: 200px 150px 30px 150px;
-    padding: 100px;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 30px;
+    width: 80%;
     background-color: rgb(223, 227, 226)
 }
 
@@ -91,57 +27,74 @@ header {
 
 }
 
+.instruction-container > h3,
+.ingredients-container > h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .ingredients-list,
 h3 {
-    font-family: "Macondo", cursive;
-    text-align: center;
+    /* font-family: "Macondo", cursive; */
+    text-align: left;
     color: black;
-    list-style: square;
+    /* list-style: square; */
     padding: 20px;
 
 }
 
-.instructions-list {
-    font-family: "Macondo", cursive;
+.ingredients-list > * {
+    padding: 5px;
+}
+
+.prep-list {
+    list-style: none;
+    text-align: left;
+    padding: 20px;
+}
+
+.prep-list ~ li {
     text-align: center;
+}
+.prep-list > * {
+    padding: 7px;
+}
+
+.instructions-list > * {
+    padding: 5px;
+}
+
+.instructions-list {
+    /* font-family: "Macondo", cursive; */
+    text-align: left;
     color: black;
     list-style: none;
     padding: 20px;
 }
 
 .notes {
-    font-family: "Macondo", cursive;
+    /* font-family: "Macondo", cursive; */
     text-align: center;
     border: solid 2px black;
-    color: black;
+    color: var(--off-white);
     padding: 40px;
 }
 
 
 
 h1 {
-    font-family: "Macondo", cursive;
+    /* font-family: "Macondo", cursive; */
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
     text-align: center;
     padding: 50px;
-    /* background-image: url(../images/italyfood.jpg); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    position: absolute;
-    width: 80vw;
-    height: 40vh;
-    margin-left: 10%;
     color: var(--off-white);
-
-
 }
 
 h2 {
     text-align: center;
-    color: var(--off-white);
+    color: black;
     font-size: 40px;
 
 }
@@ -155,125 +108,7 @@ h2 {
     padding: 20px;
     border: solid 2px black;
     font-weight: 400;
-    font-style: normal;
     color: black;
-    font-weight: bold;
-
 }
 
 
-
-footer {
-    text-align: center;
-    background-image: url(./images/epices-africaines.jpg);
-    background-size: cover;
-    padding: 20px;
-    margin: 20px;
-
-}
-
-.footer {
-    color: rgb(223, 227, 226);
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-top h3 {
-    margin: 0;
-    padding: 10px 0;
-    font-size: 1.5em;
-    color: rgb(29, 30, 12);
-}
-
-.footer-middle {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-}
-
-.footer-follow h4,
-.footer-newsletter h4 {
-    margin: 0 0 10px 0;
-    font-size: 1.2em;
-    color: rgb(29, 30, 12);
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icon {
-    color: rgb(223, 227, 226);
-    font-size: 24px;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    color: rgb(116, 109, 20);
-}
-
-.footer-newsletter form {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border: none;
-    display: flex;
-    align-items: center;
-}
-
-.footer-newsletter input {
-    padding: 5px;
-    border: none;
-    border-radius: 23px;
-    background-color: #f5f5f5;
-    color: #333;
-    min-width: 200px;
-}
-
-.footer-newsletter button {
-    position: absolute;
-    width: 40px;
-    height: 25px;
-    border-radius: 23px;
-    font-size: 16px;
-    padding: 2px 3px;
-    color: white;
-    text-transform: uppercase;
-    background-color: #746d17;
-    right: 0px;
-}
-
-.footer-newsletter button:hover {
-    background-color: #3f3f3f;
-}
-
-.footer-newsletter a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.footer-bottom {
-    padding: 10px 0;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 10px 0;
-}
-
-.footer-links a {
-    color: rgb(223, 227, 226);
-    text-decoration: none;
-}
-
-.footer-bottom p {
-    margin: 10px 0 0 0;
-    color: rgb(223, 227, 226);
-}
