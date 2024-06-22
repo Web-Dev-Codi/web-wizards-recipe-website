@@ -23,8 +23,8 @@
 }
 
 .id-cards-container {
-    width: 30em;
-    height: 30em;
+    width: 465px;
+    height: 465px;
     border-radius: 5%;
     border: 1px solid black;
     display: flex;
@@ -32,9 +32,15 @@
     flex-direction: column;
     background-color: white;
     opacity: .8;
+    position: relative;
 }
 .id-cards-container p {
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
+}
+
+.avatar-icons {
+    position: absolute;
+    bottom: 0;
 }
 
 .picture-of-participants {
@@ -48,7 +54,7 @@
 .id-cards-container ul {
     display: flex;
     justify-content: center;
-    margin-left: 1em;
+    /* margin-left: 1em; */
 }
 
 .id-cards-container ul li {
