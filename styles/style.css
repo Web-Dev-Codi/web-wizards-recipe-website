@@ -214,6 +214,7 @@ main {
     justify-content: space-between;
 }
 
+
 /* Footer */
 
 .footer {
@@ -320,6 +321,8 @@ main {
 .footer-bottom {
     padding: 10px 0;
 }
+
+
 
 .footer-newsletter input {
     padding: 5px;
