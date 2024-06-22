@@ -9,7 +9,7 @@
     display: grid;
     place-content: center;
 }
-.box {
+.box-food {
     /* background-color: var(--off-white); */
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@
     height: 600px;
 }
 
-.box h1 {
+.box-food h1 {
     color: white;
     text-align: center;
     font-size: 3rem;
@@ -39,18 +39,34 @@
     }
 } */
 
+.left-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
+.left-selection img {
+    border-radius: 15%;
+    margin: 2em;
+    height: 42vh;
+}
 
+ .box-food img {
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    width: 90%;
 
-/* .left {
+}
+
+.left-selection {
     animation-name: left;
     animation-duration: 1s;
     animation-timing-function: ease-in;
 
 }
 
-.right {
+.right-selection {
     animation-name: right;
     animation-duration: 1s;
     animation-timing-function: ease-in;
@@ -89,7 +105,24 @@
 } */
 
 
-.rec-sel-button {
+.right-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+
+    width: 70vh;
+
+}
+
+.right-selection img {
+    border-radius: 15%;
+    margin: 2em;
+
+}
+
+.mainbox button {
+    display: flex;
     background-color: var(--button-green);
     color: white;
     padding: 10px 20px;

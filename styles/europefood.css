@@ -76,7 +76,7 @@ h3 {
     /* font-family: "Macondo", cursive; */
     text-align: center;
     border: solid 2px black;
-    color: black;
+    color: var(--off-white);
     padding: 40px;
 }
 
@@ -94,7 +94,7 @@ h1 {
 
 h2 {
     text-align: center;
-    color: var(--off-white);
+    color: black;
     font-size: 40px;
 
 }

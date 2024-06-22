@@ -23,7 +23,27 @@ body {
     background-size: cover;
     z-index: -1;
 }
+.dot-wrapper-1,
+.dot-wrapper-2 {
+    width: 115px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0px;
+}
 
+.dot {
+    background-color: white;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
 header {
     height: 75px;
     position: relative;
@@ -67,28 +87,6 @@ header {
 .navbar li a:hover {
     text-decoration: underline;
     color: var(--green);
-}
-
-.dot-wrapper-1,
-.dot-wrapper-2 {
-    width: 115px;
-    height: 75px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin: 10px 0px;
-}
-
-.dot {
-    background-color: white;
-    border-radius: 50%;
-    height: 5px;
-    width: 5px;
-}
-
-main {
-    display: flex;
-    justify-content: center;
 }
 
 .hero {
@@ -206,6 +204,7 @@ main {
 
 .right-hero {
     width: 50%;
+    
 }
 
 .navbar li {
@@ -213,172 +212,6 @@ main {
     display: inline;
     justify-content: space-between;
 }
-
-/* Footer */
-
-.footer {
-
-    color: rgb(255, 255, 255);
-    padding: 20px 0;
-    text-align: center;
-    margin-top: auto
-}
-
-.footer-top h3 {
-    margin: 0;
-    padding: 10px 0;
-    font-size: 1.5em;
-    color: rgb(255, 255, 255);
-}
-
-.footer-middle {
-    color: rgb(255, 255, 255);
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-middle {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-}
-
-.footer-follow>h4,
-.footer-newsletter>h4 {
-    color: rgb(255, 255, 255);
-    margin: 0 0 10px 0;
-    font-size: 1.2em;
-}
-
-.footer-follow h4,
-.footer-newsletter h4 {
-    color: rgb(255, 255, 255);
-    margin: 0 0 10px 0;
-    font-size: 1.2em;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icon {
-    color: rgb(223, 227, 226);
-    font-size: 24px;
-    text-decoration: none;
-}
-
-.social-icon:hover {
-    color: rgb(116, 109, 20);
-}
-
-.footer-newsletter form {
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border: none;
-    align-items: center;
-}
-
-.footer-newsletter input {
-    padding: 10px;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    background-color: white;
-    color: #333;
-    min-width: 200px;
-}
-
-.footer-newsletter button {
-    position: absolute;
-    width: 40px;
-    height: 35px;
-    border: none;
-    border-radius: 0 10px 10px 0px;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 2px 3px;
-    color: white;
-    background-color: var(--button-green);
-    right: -1px;
-}
-
-.footer-newsletter button:hover {
-    background-color: var(--button-green);
-}
-
-.footer-newsletter a {
-    display: block;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.footer-bottom {
-    padding: 10px 0;
-}
-
-.footer-newsletter input {
-    padding: 5px;
-    border: none;
-    border-radius: 23px;
-    background-color: #f5f5f5;
-    color: #333;
-    min-width: 200px;
-}
-
-.footer-newsletter button {
-    position: absolute;
-    width: 40px;
-    height: 25px;
-    border-radius: 23px;
-    font-size: 16px;
-    padding: 2px 3px;
-    color: white;
-    text-transform: uppercase;
-    background-color: #746d17;
-    right: 0px;
-}
-
-/* Imprint */
-
-
-.imprint-main,
-.legal-main,
-.privacy-main {
-    display: grid;
-    place-content: center;
-    height: 100vh;
-}
-
-.imprint,
-.legal,
-.privacy {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 0 auto;
-    width: 50%;
-    box-sizing: border-box;
-
-}
-
-.imprint>h3 {
-    color: #333;
-    margin-bottom: 15px;
-    font-size: 1.8em;
-    text-align: center;
-}
-
-.imprint h3~p {
-    color: #000000;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* nikolas css for foodbox */
 .box {
     display: flex;
     align-items: center;
@@ -388,6 +221,7 @@ main {
     background-color: rgba(245, 236, 236, 0.315);
     box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
     margin-top: -25px;
+    
 
 }
 
@@ -482,87 +316,36 @@ main {
     margin: 0;
 
 }
-
-@keyframes showRight {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 80%;
-    }
-}
-
-.carousel-wrapper {
-    height: 590px;
-    position: relative;
-    width: 400px;
-    margin: 0 auto;
-}
-
-.carousel-item {
+.box1{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 25px 50px;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+    top: 180px;
+    right: 70px;
+    opacity: 0.75;
 }
-
-.arrow {
-    border: solid var(--off-white);
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 12px;
-    background-color: var(--button-green);
-}
-
-.arrow-prev {
-    left: 35px;
+.box2{
     position: absolute;
-    top: 60%;
-    transform: translateY(-50%) rotate(135deg);
+    top: 180px;
+    right: 500px;
+    opacity: 0.75;
 }
-
-.arrow-next {
-    right: -65px;
+.box3{
     position: absolute;
-    top: 60%;
-    transform: translateY(-50%) rotate(-45deg);
-}
-
-.light {
-    color: white;
-}
-
-/*Select every element*/
-[id^="item"] {
-    display: none;
-}
-
-.item-1 {
-    z-index: 2;
-    opacity: 1;
-
-}
-
-
-*:target~.item-1 {
-    opacity: 0;
-}
-
-#item-1:target~.item-1 {
+    top: 180px;
+    right: 300px;
     opacity: 1;
 }
-
-#item-2:target~.item-2,
-#item-3:target~.item-3 {
-    z-index: 3;
+.box1:hover{
+    z-index: 1;
     opacity: 1;
 }
-
+.box2:hover{
+    z-index: 1;
+    opacity: 1;
+}
+.box3:hover{
+    
+    opacity: 1;
+}
 .contact {
     width: 600px;
     color: white;
@@ -625,9 +408,198 @@ input[type=submit]:hover {
 #form-submit:hover {
     background-color: #45a049;
 }
+.footer {
 
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto
+}
 
+.footer-top h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.5em;
+}
 
+.footer-middle {
+
+    color: rgb(223, 227, 226);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-top h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.5em;
+    color: rgb(29, 30, 12);
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-follow>h4,
+.footer-newsletter>h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: rgb(116, 109, 20);
+}
+
+/* .footer-newsletter form {} */
+
+.footer-follow h4,
+.footer-newsletter h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: rgb(29, 30, 12);
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: rgb(223, 227, 226);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: rgb(116, 109, 20);
+}
+
+.footer-newsletter form {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    align-items: center;
+}
+
+.footer-newsletter input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    min-width: 200px;
+}
+
+.footer-newsletter button {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 0 10px 10px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 2px 3px;
+    color: white;
+    background-color: var(--button-green);
+    right: -1px;
+}
+
+.footer-newsletter button:hover {
+    background-color: var(--button-green);
+}
+
+.footer-newsletter a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-links {}
+
+.footer-newsletter input {
+    padding: 5px;
+    border: none;
+    border-radius: 23px;
+    background-color: #f5f5f5;
+    color: #333;
+    min-width: 200px;
+}
+
+.footer-newsletter button {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    border-radius: 23px;
+    font-size: 16px;
+    padding: 2px 3px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #746d17;
+    right: 0px;
+}
+
+.footer-newsletter button:hover {
+    background-color: #3f3f3f;
+}
+
+.footer-newsletter a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    padding: 10px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+
+.footer-links a {
+    color: rgb(223, 227, 226);
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0 0;
+    color: rgb(223, 227, 226);
+}
 @media (width < 1200px) {
     .hero {
         flex-direction: column;
@@ -653,7 +625,7 @@ input[type=submit]:hover {
         height: 475px;
     }
 
-    .box {
+    .box  {
         width: 400px;
         height: max-content;
     }
@@ -765,173 +737,4 @@ input[type=submit]:hover {
     .social-icons {
         justify-content: center;
     }
-}
-/* foodselction */
-.mainbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15vh;
-    margin-top: 10vh;
-
-}
-
-.box-food {
-    background-color: var(--off-white);
-    height: 100%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 70vw;
-}
-
-.box-food h1 {
-    color: var(--button-green);
-    font-size: 3rem;
-    justify-content: center;
-    animation: h1 1s cubic-bezier(0, 0.7, 1, 0.1);
-    display: flex;
-    align-items: center;
-}
-
-@keyframes h1 {
-    0% {
-        transform: scale(0.5);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-.left-selection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 2em;
-    width: 70vh;
-}
-
-.left-selection img {
-    border-radius: 15%;
-    margin: 2em;
-    height: 42vh;
-}
-
- .box-food img {
-    animation-name: img;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    width: 90%;
-
-}
-
-.left-selection {
-    animation-name: left;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-
-}
-
-.right-selection {
-    animation-name: right;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-}
-
-@keyframes right {
-    0% {
-        transform: scale(0.5);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes left {
-    0% {
-        transform: scale(0.5);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes img {
-    0% {
-        transform: scale(0.5);
-
-    }
-
-    100% {
-        transform: scale(1);
-
-    }
-}
-
-.right-selection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-
-    width: 70vh;
-
-}
-
-.right-selection img {
-    border-radius: 15%;
-    margin: 2em;
-    height: 42vh;
-
-}
-
-.box-food button {
-    display: flex;
-    background-color: var(--button-green);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    width: 40vh;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20%;
-    margin-bottom: 5px;
-    
-}
-
-.box-food button:hover {
-    background-color: #3f3f3f;
-
-}
-
-.box-food a button:hover {
-    color: var(--button-green);
-    
-}
-
-.box-food a button {
-    text-decoration:none;
-    color: white;
-    font-weight: 900;
-    font-size: x-large;
-}
-/*recipes page */
-.recsel{
-    display: block;
-    flex-direction: column;
-    
-}
-.recsel h2{
-    color: var(--off-white);
-    font-size: 3rem;
-    justify-content: center;
-    display: flex;
-    align-items: center;
 }
