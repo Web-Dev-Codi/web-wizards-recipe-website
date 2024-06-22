@@ -642,7 +642,12 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-
+/* @media (width < 1600px ) {
+    .hero {
+            flex-direction: column;
+            margin: 0px auto 0px auto;
+        }
+} */
 
 @media (width < 1200px) {
     .hero {
