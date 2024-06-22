@@ -96,6 +96,7 @@ main {
     justify-content: center;
     width: 90%;
     margin: 75px auto;
+    position: relative;
 }
 
 .top-hero,
@@ -109,7 +110,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    position: relative;
+    
 }
 
 .center-hero-bottom-wrapper>* {
@@ -195,7 +196,9 @@ main {
 }
 
 .left-hero {
+    margin-right: 100px;
     width: 650px;
+    position: relative;
 }
 
 .hero-left-wrapper {
@@ -206,6 +209,8 @@ main {
 
 .right-hero {
     width: 50%;
+    position: relative;
+    height: max-content;
 }
 
 .navbar li {
@@ -218,11 +223,10 @@ main {
 /* Footer */
 
 .footer {
-
     color: rgb(255, 255, 255);
-    padding: 20px 0;
+    /* padding: 10px 0; */
     text-align: center;
-    margin-top: auto
+    /* margin-top: auto */
 }
 
 .footer-top h3 {
@@ -247,6 +251,8 @@ main {
     border-bottom: 1px solid #ddd;
 }
 
+
+
 .footer-follow>h4,
 .footer-newsletter>h4 {
     color: rgb(255, 255, 255);
@@ -256,10 +262,9 @@ main {
 
 .footer-follow h4,
 .footer-newsletter h4 {
-    color: rgb(255, 255, 255);
     margin: 0 0 10px 0;
     font-size: 1.2em;
-    color:#fff;
+    color: #fff;
 }
 
 .social-icons {
@@ -307,6 +312,10 @@ main {
     color: white;
     background-color: var(--button-green);
     right: -1px;
+}
+
+.footer a {
+    color: rgb(255, 255, 255);
 }
 
 .footer-newsletter button:hover {
@@ -495,7 +504,7 @@ main {
     }
 }
 
-.carousel-wrapper {
+/* .carousel-wrapper {
     height: 590px;
     position: relative;
     width: 400px;
@@ -511,7 +520,7 @@ main {
     padding: 25px 50px;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-}
+} */
 
 .arrow {
     border: solid var(--off-white);
@@ -652,6 +661,7 @@ input[type=submit]:hover {
 
     .right-hero {
         width: 100%;
+        margin: 100px auto;
     }
 
     .carousel-wrapper {
@@ -686,6 +696,19 @@ input[type=submit]:hover {
         margin-top: 20px;
         animation: none;
     }
+
+    #contact {
+        margin-top: 650px;
+    }
+
+    .food-selection-cards {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ 
 }
 
 @media (width <=600px) {
