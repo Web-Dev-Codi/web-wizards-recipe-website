@@ -63,7 +63,7 @@ header h1 {
 }
 
 .extra-info {
-    list-style: none;
+    list-style-type: none;
     align-items: center;
     padding: 30px;
     text-align: center;
@@ -75,7 +75,7 @@ header h1 {
 h3 {
     text-align: center;
     color: black;
-    list-style: square;
+    list-style: none;
     padding: 20px;
 
 }
@@ -138,11 +138,14 @@ h2 {
 }
 
 
-/* footer {
-    text-align: center;
+ footer {
+   /* text-align: center;
     background-image: url(./images/epices-africaines.jpg);
-    background-size: cover;
+    background-size: cover;*/
     padding: 20px;
-    margin: 20px;
+    color: #fff;
 
-} */
+} 
+.social-icon {
+    color: #fff;
+}
