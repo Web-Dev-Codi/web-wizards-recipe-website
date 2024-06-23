@@ -650,6 +650,7 @@ main {
     flex-wrap: wrap;
     gap: 25px;
     width: 100%;
+    margin: 70px 
 }
 
 a {
@@ -716,9 +717,11 @@ input[type=submit]:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     gap: 20px;
     width: 500px;
-    height: 500px;
+    height: 425px;
+    color: var(--button-green);
     background-color: var(--off-white);
 }
 
@@ -726,9 +729,16 @@ input[type=submit]:hover {
     width: 100%;
     max-width: 400px;
     height: 275px;
+    border-radius: 10px;
     /* height: 500px; */
     /* height: auto; */
 
+}
+
+.recipe-top-heading {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -763,11 +773,6 @@ input[type=submit]:hover {
         height: 590px;
     }
 
-    .box-food {
-
-        width: 150px;
-    }
-
     .carousel-item {
         padding: 0;
         transition: none;
@@ -796,18 +801,8 @@ input[type=submit]:hover {
     }
 
     #contact {
-        margin-top: 650px;
+        margin-top: 550px;
     }
-
-    /* 
-    .food-selection-cards {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-
-
 }
 
 @media (width <=600px) {
@@ -817,8 +812,27 @@ input[type=submit]:hover {
     }
 
     .box {
-        width: 200px;
+
+        width: 250px;
         height: 590px;
+    }
+
+    .box1 {
+        position: absolute;
+        right: -10px;
+        opacity: 0.75;
+    }
+
+    .box2 {
+        position: absolute;
+        right: 90px;
+        opacity: 0.75;
+    }
+
+    .box3 {
+        position: absolute;
+        right: 40px;
+        opacity: 1;
     }
 
     .hero-heading {
@@ -838,6 +852,29 @@ input[type=submit]:hover {
         font-weight: 500;
     }
 
+    .e-sel-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .web-w-heading {
+        font-size: 25px;
+    }
+
+
+    .food-selection-card {
+        width: 400px;
+        height: 375px;
+    }
+
+    .food-card-img {
+        width: 100%;
+        max-width: 300px;
+        height: 225px;
+        border-radius: 10px;
+    }
+
     .center-hero-wrapper>div {
         width: 5px;
         height: 80px;
@@ -853,11 +890,6 @@ input[type=submit]:hover {
         font-size: 12px;
         padding: 5px 10px;
 
-    }
-
-    .carousel-wrapper,
-    .box {
-        width: 340px;
     }
 
     .chevron-bottom {
@@ -903,6 +935,26 @@ input[type=submit]:hover {
     .social-icons {
         justify-content: center;
     }
+
+    .recipe-top-heading {
+        font-size: 20px;
+    }
+
+
+    .box-food {
+        width: 350px;
+    }
+
+    .extra-info {
+        font-size: 12px;
+    }
+
+    .instructions-list,
+    .ingredients-list,
+    .origin-bobotie {
+        font-size: 12px;
+        text-wrap: balance
+    }
 }
 
 /* foodselction */
@@ -916,8 +968,6 @@ input[type=submit]:hover {
     background-color: var(--off-white);
     height: 100%;
     display: block;
-    justify-content: center;
-    align-items: center;
     width: 650px;
 }
 
@@ -1030,7 +1080,19 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     margin: 15px auto;
+}
 
+.rec-sel-button {
+    display: flex;
+    background-color: var(--button-green);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
 }
 
 .box-food button:hover {
