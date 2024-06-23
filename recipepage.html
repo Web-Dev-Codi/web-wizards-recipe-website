@@ -11,9 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
+  <!-- <link rel="stylesheet" href="styles/style.css"> -->
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="icon" type="image/x-icon" href="/images/logo.ico">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Recipes</title>
+  <title>African food selection</title>
 </head>
 
 <body>
@@ -30,68 +31,69 @@
       </ul>
     </nav>
   </header>
+  <h2 style="color:rgb(157, 207, 186); text-align: center; font-size: 55px; text-decoration: underline;">OUR RECIPES
+  </h2>
+
   <main>
-    <div class="foodmainboc">
-      <section class="recsel">
-        <h2>European Food</h2>
-        <div class="mainbox">
-          <section class="left-selection">
-            <div class="box-food">
-              <h1>Spaghetti Carbonara</h1>
-              <img src="./images/spaghetticarbonara.jpg" alt="">
-              <a href="#"><button>Check the recipe</button></a>
-            </div>
-          </section>
+    <div class="e-sel-main">
+      <h2 style="color: whitesmoke; text-align: center; font-size: 45px;">EUROPEAN RECIPES</h2>
+      <div class="mainbox">
+        <section class="left-selection">
+          <div class="box-food">
+            <h1>Spaghetti Carbonara</h1>
+            <img class="sel-image" src="./images/spaghetticarbonara.jpg" alt="carbonara">
+            <a href="cabronara.html"><button class="rec-sel-button">Check the recipe</button></a>
+          </div>
+        </section>
+        <section class="right-selection">
+          <div class="box-food">
+            <h1>Roasted Duck </h1>
+            <img class="sel-image" src="./images/roasted-duck.webp" alt="roasted duck">
+            <a href="duck.html"><button class="rec-sel-button">Check the recipe</button></a>
+          </div>
+        </section>
+      </div>
 
-          <section class="right-selection">
-            <div class="box-food">
-              <h1>Roasted Duck </h1>
-              <img src="./images/roasted-duck.webp" alt="spaghetti carbonara">
-              <a href="#"><button>Check the recipe</button></a>
-            </div>
-          </section>
-        </div>
-      </section>
 
-      <section class="recsel">
-        <h2>American Food</h2>
+      <div class="e-sel-main">
+        <h2 style="color: whitesmoke; text-align: center; font-size: 50px;">AFRICAN RECIPES</h2>
         <div class="mainbox">
           <section class="left-selection">
             <div class="box-food">
-              <h1>Spaghetti Carbonara</h1>
-              <img src="./images/spaghetticarbonara.jpg" alt="">
-              <a href="#"><button>Check the recipe</button></a>
+              <h1>Ekwang</h1>
+              <img class="sel-image" src="./images/ekwan.jpg" alt="Ekwang">
+              <a href="http://127.0.0.1:5501/centralafrica2.html"><button class="rec-sel-button">Check the
+                  recipe</button></a>
             </div>
           </section>
           <section class="right-selection">
             <div class="box-food">
-              <h1>Roasted Duck </h1>
-              <img src="./images/roasted-duck.webp" alt="spaghetti carbonara">
-              <a href="#"><button>Check the recipe</button></a>
+              <h1>Grilled Fish </h1>
+              <img class="sel-image" src="./images/fish_grilled.jpg" alt="grilled fish">
+              <a href="http://127.0.0.1:5501/centralafrica1.html"><button class="rec-sel-button">Check the
+                  recipe</button></a>
             </div>
           </section>
         </div>
-      </section>
-      <section class="recsel">
-        <h2>African Food</h2>
-        <div class="mainbox">
-          <section class="left-selection">
-            <div class="box-food">
-              <h1>The Grilled Fish</h1>
-              <img src="./images/fish_grilled.jpg" alt="">
-              <a href="#"><button>Check the recipe</button></a>
-            </div>
-          </section>
-          <section class="right-selection">
-            <div class="box-food">
-              <h1>Ekwang </h1>
-              <img src="./images/ekwan.jpg" alt="spaghetti carbonara">
-              <a href="#"><button>Check the recipe</button></a>
-            </div>
-          </section>
+        <div class="e-sel-main">
+          <h2 style="color: whitesmoke; text-align: center; font-size: 50px;">American Recipes</h2>
+          <div class="mainbox">
+            <section class="left-selection">
+              <div class="box-food">
+                <h1>Sloppy Joe</h1>
+                <img class="sel-image" src="./images/sloppyjoe.webp" alt="carbonara">
+                <a href="sloppyjoe.html"><button class="rec-sel-button">Check the recipe</button></a>
+              </div>
+            </section>
+            <section class="right-selection">
+              <div class="box-food">
+                <h1>Truffled mac'n'cheese</h1>
+                <img class="sel-image" src="./images/mac.webp" alt="roasted duck">
+                <a href="maccheese.html"><button class="rec-sel-button">Check the recipe</button></a>
+              </div>
+            </section>
+          </div>
         </div>
-      </section>
-    </div>
   </main>
   <footer class="footer">
     <div class="footer-top">
@@ -104,8 +106,7 @@
           <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
           <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
           <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="https://github.com/Web-Dev-Codi/web-wizards-recipe-website" target="_blank" rel="noopener noreferrer"
-            class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="footer-newsletter">
@@ -120,14 +121,14 @@
     </div>
     <div class="footer-bottom">
       <div class="footer-links">
-        <a href="/imprint.html">Imprint</a>
-        <a href="/legal.html">Legal Terms</a>
-        <a href="/privacy.html">Privacy Policy</a>
+        <a href="#">Imprint</a>
+        <a href="#">Legal Terms</a>
+        <a href="#">Privacy Policy</a>
       </div>
       <p>&copy; 2024 Web Wizards Recipes. All rights reserved.</p>
     </div>
-  </footer>
 
+  </footer>
 </body>
 
 </html>
