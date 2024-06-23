@@ -412,7 +412,7 @@ main {
     text-align: center;
     font-size: 55px;
     text-decoration: underline;
-    margin: 75px;
+    margin: 15px;
 }
 
 .foodbox {
@@ -650,7 +650,7 @@ main {
     flex-wrap: wrap;
     gap: 25px;
     width: 100%;
-    margin: 70px;
+    margin: 50px;
     height: 100vh;
 }
 
