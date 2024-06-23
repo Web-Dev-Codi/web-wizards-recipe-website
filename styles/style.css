@@ -648,12 +648,14 @@ main {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 25px;
     width: 100%;
 }
 
 a {
     text-decoration: none;
 }
+
 #name,
 #email,
 textarea {
@@ -708,6 +710,27 @@ input[type=submit]:hover {
             margin: 0px auto 0px auto;
         }
 } */
+
+.food-selection-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--off-white);
+}
+
+.food-card-img {
+    width: 100%;
+    max-width: 400px;
+    height: 275px;
+    /* height: 500px; */
+    /* height: auto; */
+
+}
+
 
 @media (width <=1200px) {
     .hero {
@@ -868,7 +891,8 @@ input[type=submit]:hover {
     .contact {
         width: 350px;
     }
-    .footer-top h3{
+
+    .footer-top h3 {
         font-size: 12px;
     }
 
@@ -886,7 +910,6 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .box-food {
@@ -926,10 +949,9 @@ input[type=submit]:hover {
 }
 
 .left-selection img {
-    border-radius: 15%;
+    /* border-radius: 15%; */
     margin: 2em;
     height: 370px;
-    
 }
 
 .box-food img {
@@ -992,7 +1014,7 @@ input[type=submit]:hover {
 }
 
 .right-selection img {
-    border-radius: 15%;
+    /* border-radius: 15%; */
     margin: 2em;
     height: 370px;
 }
