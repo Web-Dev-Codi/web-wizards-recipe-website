@@ -2,7 +2,7 @@
     margin-top: 35px;
     text-align: center;
     color: whitesmoke;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .avatar-main {
@@ -39,7 +39,15 @@
     /* margin-bottom: 2em; */
 }
 
-@media (width < 800px) {
+@media (width <=800px) {
+    .footer-top {
+        font-size: 10px;
+    }
+
+    .the-title {
+        font-size: 22px;
+    }
+
     .id-cards-container {
         width: 350px;
         height: 450px;
@@ -95,6 +103,7 @@
     height: auto;
     /* width: 1200px; */
     display: flex;
+    padding: 40px;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
