@@ -401,6 +401,20 @@ main {
     margin-top: -25px;
 }
 
+.food-responsive h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px
+}
+
+.web-w-heading {
+    color: rgb(157, 207, 186);
+    text-align: center;
+    font-size: 55px;
+    text-decoration: underline;
+    margin: 75px;
+}
+
 .foodbox {
     width: 100%;
     height: 100%;
@@ -629,6 +643,15 @@ main {
     margin-bottom: 15px;
 }
 
+.food-selection-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 #name,
 #email,
 textarea {
@@ -649,6 +672,7 @@ input[type=submit]:hover {
 .avatar-para {
     text-align: center;
     padding: 10px;
+
 }
 
 .container {
@@ -683,7 +707,7 @@ input[type=submit]:hover {
         }
 } */
 
-@media (width < 1200px) {
+@media (width <=1200px) {
     .hero {
         flex-direction: column;
         margin: 0px auto 0px auto;
@@ -714,6 +738,11 @@ input[type=submit]:hover {
         height: 590px;
     }
 
+    .box-food {
+
+        width: 150px;
+    }
+
     .carousel-item {
         padding: 0;
         transition: none;
@@ -729,6 +758,11 @@ input[type=submit]:hover {
         right: -15px;
         position: absolute;
         top: 45%;
+    }
+
+    .food-responsive {
+        display: flex;
+        flex-direction: column;
     }
 
     .foodbox img {
@@ -856,7 +890,7 @@ input[type=submit]:hover {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 70vw;
+    width: 650px;
 }
 
 .box-food h1 {
@@ -883,13 +917,14 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     margin: 2em;
-    width: 650px;
+    /* width: 100%; */
 }
 
 .left-selection img {
     border-radius: 15%;
     margin: 2em;
     height: 370px;
+    
 }
 
 .box-food img {
@@ -948,7 +983,7 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
     border: 2px solid white;
-    width: 650px;
+    /* width: 100%; */
 }
 
 .right-selection img {
@@ -965,11 +1000,9 @@ input[type=submit]:hover {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
-    margin-bottom: 5px;
+    margin: 15px auto;
 
 }
 
