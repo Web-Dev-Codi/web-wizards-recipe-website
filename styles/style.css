@@ -650,8 +650,9 @@ main {
     flex-wrap: wrap;
     gap: 25px;
     width: 100%;
-    margin: 20px;
+    margin: 70px;
     height: 100vh;
+}
 
 a {
     text-decoration: none;
