@@ -628,7 +628,6 @@ main {
     margin: 25px auto;
     border-radius: 5px;
     background-color: transparent;
-    box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
     padding: 20px;
 }
 
@@ -868,6 +867,9 @@ input[type=submit]:hover {
 
     .contact {
         width: 350px;
+    }
+    .footer-top h3{
+        font-size: 12px;
     }
 
     .footer {
