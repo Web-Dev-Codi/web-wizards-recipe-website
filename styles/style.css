@@ -37,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
     padding: 10px;
     font-weight: 900;
     font-size: 16px;
@@ -44,6 +45,10 @@ header {
     top: 0;
     right: 0;
     left: 0;
+=======
+    color: #fff;
+    padding: 10px; 
+>>>>>>> f193a87 (buttom:hover deleted the stuff)
 }
 
 .navbar ul {
@@ -480,6 +485,7 @@ main {
 
 .foodbox button:hover {
     background-color: var(--button-green);
+<<<<<<< HEAD
     color: white;
     border: none;
     padding: 10px 20px;
@@ -490,6 +496,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+=======
+    color: white; 
+>>>>>>> f193a87 (buttom:hover deleted the stuff)
 }
 
 .foodbox p {
