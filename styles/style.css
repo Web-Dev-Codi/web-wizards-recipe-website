@@ -37,7 +37,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding: 10px;
     font-weight: 900;
     font-size: 16px;
@@ -45,10 +44,6 @@ header {
     top: 0;
     right: 0;
     left: 0;
-=======
-    color: #fff;
-    padding: 10px;
->>>>>>> f193a87 (buttom:hover deleted the stuff)
 }
 
 .navbar ul {
@@ -73,17 +68,6 @@ header {
     text-decoration: underline;
     color: var(--green);
 }
-
-.menu-toggle {
-    display: none;
-  }
-
-  .hamburger {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-  }
-
 
 .dot-wrapper-1,
 .dot-wrapper-2 {
@@ -376,7 +360,7 @@ main {
 .imprint-main,
 .legal-main,
 .privacy-main {
-    display: absolute;
+    display: grid;
     place-content: center;
     height: 100vh;
 }
@@ -384,14 +368,13 @@ main {
 .imprint,
 .legal,
 .privacy {
-    background-color: var(--off-white);
+    background-color: #f9f9f9;
     padding: 20px;
-    margin: 15px auto;
-    width: 90%;
+    margin: 0 auto;
+    width: 50%;
     box-sizing: border-box;
 
 }
-
 
 .imprint>h3 {
     color: #333;
@@ -486,7 +469,6 @@ main {
 
 .foodbox button:hover {
     background-color: var(--button-green);
-<<<<<<< HEAD
     color: white;
     border: none;
     padding: 10px 20px;
@@ -497,9 +479,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-=======
-    color: white;
->>>>>>> f193a87 (buttom:hover deleted the stuff)
 }
 
 .foodbox p {
@@ -933,51 +912,14 @@ input[type=submit]:hover {
         height: 265px;
     }
 
-    .hamburger {
-        display: block;
-        position: fixed;
-        right: 10px;
-        top: 20px;
-        cursor: pointer;
-        padding: 15px;
-        z-index: 3;
-      }
+    .navbar {
+        font-size: 12px;
+        margin-right: 5px;
+    }
 
-      .navbar ul {
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: var(--off-white);
-        box-shadow: 0 10px 25px rgba(19, 17, 17, 0.2);
-        width: 100%;
-        display: none;
-        flex-direction: column;
-        z-index: 3;
-      }
-
-      .navbar li a {
-        display: block;
-        padding: 8px 15px;
-        text-align: center;
-      color: black;
-        text-decoration: none;
-      }
-
-      .navbar ul li a:hover {
-        background-color: #ffffff;
-      }
-
-      .menu-toggle:checked ~ ul {
-        display: block;
-      }
-
-      .menu-toggle:checked ~ .navbar ul {
-        display: flex;
-      }
-
-      .menu-toggle:checked ~ .hero {
-        margin-top: calc(95px + 75px);
-      }
+    .navbar li {
+        margin: 0 15px;
+    }
 
     .contact {
         width: 350px;
