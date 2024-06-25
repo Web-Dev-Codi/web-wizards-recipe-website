@@ -23,6 +23,9 @@
       <div class="logo">
         <a href="index.html"><img src="/images/logo.png" alt="Logo"></a>
       </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></label>
+
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="recipepage.html">Recipes</a></li>
@@ -77,8 +80,9 @@
               <p>Global recipes showcase diverse culinary traditions, featuring unique ingredients and techniques,
                 creating a rich
                 tapestry of flavors and cultural experiences.</p>
-              <button class="hero-button">Recipes <span><i
-                    class="fa-solid fa-circle-chevron-right fa-lg button-icon"></i></span></button>
+              <a href="recipepage.html">
+                <button class="hero-button">Recipes <span><i
+                      class="fa-solid fa-circle-chevron-right fa-lg button-icon"></i></span></button></a>
             </div>
           </div>
           <div class="bottom-hero">
@@ -121,7 +125,7 @@
             <div class="box box1 res-box">
               <div class="foodbox" id="fooditem1">
                 <img src="./images/europefood.jpg" alt="europefood">
-                <h2>European Food</h2>
+                <h2>European Recipes</h2>
                 <p>European cuisine, from Eastern Europe's hearty stews to France's delicate pastries, showcases a rich
                   tapestry of flavors
                   and traditions, reflecting the continent's diverse cultures and histories.
@@ -135,7 +139,7 @@
             <div class="box box2 res-box">
               <div class="foodbox" id="fooditem2">
                 <img src="./images/africanfood.jpg" alt="europefood">
-                <h2>African Food</h2>
+                <h2>African Recipes</h2>
                 <p>African cuisine, with dishes like spicy West African jollof rice and aromatic North African tagines,
                   is a vibrant blend
                   of bold flavors and diverse ingredients, deeply rooted in local cultures.
@@ -149,7 +153,7 @@
             <div class="box box3 res-box">
               <div class="foodbox" id="fooditem3">
                 <img src="./images/americanfood.jpg" alt="europefood">
-                <h2>American Food</h2>
+                <h2>American Recipes</h2>
                 <p>American cuisine, featuring Southern barbecue, New England clam chowder, and Tex-Mex specialties,
                   reflects the country's
                   rich history and regional influences with a diverse mix of flavors from hearty comfort foods to
@@ -177,38 +181,40 @@
       </form>
     </div>
   </section>
-  <footer class="footer">
-    <div class="footer-top">
-      <h3 style="color: #fff;">Explore the World</h3>
-    </div>
-    <div class="footer-middle">
-      <div class="footer-follow">
-        <h4 style="color: #fff;">Follow #WizardsRecipes</h4>
-        <div class="social-icons">
-          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
-          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="https://github.com/Web-Dev-Codi/web-wizards-recipe-website" target="_blank" rel="noopener noreferrer"
-            class="social-icon"><i class="fab fa-github"></i></a>
+  <footer>
+    <div class="footer">
+      <div class="footer-top">
+        <h3 style="color: #fff;">Explore the World</h3>
+      </div>
+      <div class="footer-middle">
+        <div class="footer-follow">
+          <h4 style="color: #fff;">Follow #WizardsRecipes</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Web-Dev-Codi/web-wizards-recipe-website" target="_blank"
+              rel="noopener noreferrer" class="social-icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <form action="#">
+            <input type="email" placeholder="Enter your email address" />
+            <button type="submit">
+              <i class="fa-solid fa-circle-chevron-right"></i>
+            </button>
+          </form>
         </div>
       </div>
-      <div class="footer-newsletter">
-        <h4>Newsletter</h4>
-        <form action="#">
-          <input type="email" placeholder="Enter your email address" />
-          <button type="submit">
-            <i class="fa-solid fa-circle-chevron-right"></i>
-          </button>
-        </form>
+      <div class="footer-bottom">
+        <div class="footer-links">
+          <a href="/imprint.html">Imprint</a>
+          <a href="/legal.html">Legal Terms</a>
+          <a href="/privacy.html">Privacy Policy</a>
+        </div>
+        <p>&copy; 2024 Web Wizards Recipes. All rights reserved.</p>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-links">
-        <a href="/imprint.html">Imprint</a>
-        <a href="/legal.html">Legal Terms</a>
-        <a href="/privacy.html">Privacy Policy</a>
-      </div>
-      <p>&copy; 2024 Web Wizards Recipes. All rights reserved.</p>
     </div>
   </footer>
 </body>
