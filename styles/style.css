@@ -382,7 +382,7 @@ footer {
   display: grid;
   place-content: center;
     height: 100vh;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .imprint,
@@ -908,6 +908,12 @@ input[type=submit]:hover {
     .carousel-wrapper {
         height: 265px;
     }
+
+        .imprint-main,
+        .legal-main,
+        .privacy-main {
+            height: 100%;
+        }
 
     .hamburger {
         display: block;
