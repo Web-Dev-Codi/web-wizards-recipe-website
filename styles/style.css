@@ -378,9 +378,10 @@ footer {
 .imprint-main,
 .legal-main,
 .privacy-main {
-    display: absolute;
-    place-content: center;
+  display: grid;
+  place-content: center;
     height: 100vh;
+    height: 100%;
 }
 
 .imprint,
@@ -392,6 +393,13 @@ footer {
     width: 90%;
     box-sizing: border-box;
 
+}
+
+.imprint > *,
+.legal >* ,
+.privacy > * {
+    padding: 5px;
+    line-height: 1.4;
 }
 
 
