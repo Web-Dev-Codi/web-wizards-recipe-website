@@ -10,23 +10,26 @@
     --button-green: rgb(116, 109, 20);
 }
 
-/* 
-html,
-body {} */
+
 
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/pic4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center center; */
-    height: 100vh;
-    height: 100%;
+    background-position: center center;
+    min-height: 100vh;
     z-index: -1;
 }
 
 header {
     height: 75px;
     position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
 }
 
 .logo img {
@@ -96,11 +99,6 @@ header {
     border-radius: 50%;
     height: 5px;
     width: 5px;
-}
-
-main {
-    display: flex;
-    justify-content: center;
 }
 
 .hero {
@@ -379,8 +377,8 @@ footer {
 .imprint-main,
 .legal-main,
 .privacy-main {
-  display: grid;
-  place-content: center;
+    display: grid;
+    place-content: center;
     height: 100vh;
     /* height: 100%; */
 }
@@ -396,9 +394,9 @@ footer {
 
 }
 
-.imprint > *,
-.legal >* ,
-.privacy > * {
+.imprint>*,
+.legal>*,
+.privacy>* {
     padding: 5px;
     line-height: 1.4;
 }
@@ -613,9 +611,9 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
-    width: 100%;
+    /* width: 100%; */
     margin: 50px;
-    /* height: 100vh; */
+    height: 100%;
 }
 
 a {
@@ -776,13 +774,17 @@ input[type=submit]:hover {
     #contact {
         margin-top: 500px;
     }
+
+    .food-selection-main {
+        height: 100%;
+    }
 }
 
 @media (width <=600px) {
-     body {
+    body {
         background-size: cover;
         background-position: top center;
-     }
+    }
 
     .hero {
         padding: 25px;
@@ -909,11 +911,15 @@ input[type=submit]:hover {
         height: 265px;
     }
 
-        .imprint-main,
-        .legal-main,
-        .privacy-main {
-            height: 100%;
-        }
+    .food-selection-main {
+        height: 100%;
+    }
+
+    .imprint-main,
+    .legal-main,
+    .privacy-main {
+        height: 100%;
+    }
 
     .hamburger {
         display: block;
